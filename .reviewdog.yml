@@ -1,4 +1,0 @@
-runner:
-  rubocop:
-    cmd: rubocop --config .rubocop.yml
-    level: warning
