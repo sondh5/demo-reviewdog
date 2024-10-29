@@ -1,0 +1,9 @@
+inherit_from: .rubocop_todo.yml
+
+require:
+  - rubocop-rails
+
+AllCops:
+  TargetRubyVersion: 3.3.0
+  NewCops: enable
+  SuggestExtensions: false
