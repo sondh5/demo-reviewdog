@@ -14,7 +14,7 @@ class ArticlesController < ApplicationController
   # GET /articles/new
   def new
     @article = Article.new
-    unused_varible = @article.article_slug
+    @article.article_slug
   end
 
   # GET /articles/1/edit
