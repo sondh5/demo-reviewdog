@@ -2,6 +2,6 @@
 
 class Article < ApplicationRecord
   def artical_slug
-    puts "xx"
+    Rails.logger.debug "xx"
   end
 end
