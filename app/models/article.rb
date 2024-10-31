@@ -2,6 +2,6 @@
 
 class Article < ApplicationRecord
   def artical_slug
-      puts "xx"
+    puts "xx"
   end
 end
